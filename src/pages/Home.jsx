@@ -208,7 +208,7 @@ Industry level training with live projects & placement support.
       </div>
 
       {/* Buttons */}
-      <div className="mt-10 flex flex-col sm:flex-row gap-4">
+      {/* <div className="mt-10 flex flex-col sm:flex-row gap-4">
 
         <a
           href="/courses"
@@ -220,6 +220,23 @@ Industry level training with live projects & placement support.
         <a
           href="/login"
           className="text-center border border-white px-6 sm:px-8 py-3 sm:py-4 rounded-full hover:bg-white hover:text-black transition"
+        >
+          Register Now
+        </a>
+
+      </div> */}
+      <div className="mt-10 flex flex-wrap gap-4">
+
+        <a
+          href="/courses"
+          className="bg-green-400 text-black px-8 py-4 rounded-full font-bold hover:scale-105 transition"
+        >
+          Explore Courses
+        </a>
+
+        <a
+          href="/login"
+          className="border border-white px-8 py-4 rounded-full hover:bg-white hover:text-black transition"
         >
           Register Now
         </a>
