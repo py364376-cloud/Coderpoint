@@ -46,7 +46,7 @@ return(
   
 <div>
   {/* <section className="h-screen w-full bg-cover bg-center flex items-center"> */}
-    <section
+    {/* <section
   className="h-screen bg-cover bg-center flex items-center relative overflow-hidden"
   style={{
     backgroundImage:
@@ -55,7 +55,7 @@ return(
 >
   <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-black/40"></div>
 
-  <div className="relative z-10 w-full h-full flex items-center">
+  <div className="relative z-10  w-full h-full flex items-center">
     <div className="max-w-7xl mx-auto px-6 text-white">
 
       <span className="bg-green-500/20 border border-green-400 text-green-300 px-5 py-2 rounded-full">
@@ -119,7 +119,7 @@ return(
 
     </div>
   </div>
-</section>
+</section> */}
   {/* </section> */}
 {/* <section className="h-screen bg-cover bg-center flex items-center"
 style={{
@@ -149,6 +149,89 @@ Industry level training with live projects & placement support.
 </div>
 </div>
 </section> */}
+
+<section
+  className="min-h-screen bg-cover bg-center flex items-center relative overflow-hidden"
+  style={{
+    backgroundImage:
+      "url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop')",
+  }}
+>
+  <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-black/40"></div>
+
+  <div className="relative z-10 w-full py-16">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 text-white">
+
+      {/* Loading Badge */}
+      <span className="inline-block bg-green-500/20 border border-green-400 text-green-300 px-4 py-2 rounded-full text-sm sm:text-base">
+        🚀 {loadingText}
+      </span>
+
+      {/* Heading */}
+      <h1 className="text-3xl sm:text-5xl md:text-7xl font-extrabold mt-6 leading-tight">
+        Build Your Future With
+        <span className="block text-green-400">
+          Coding & AI Skills
+        </span>
+      </h1>
+
+      {/* Paragraph */}
+      <p className="mt-4 sm:mt-6 text-base sm:text-lg md:text-xl text-gray-300 max-w-2xl">
+        Learn from industry experts, work on real projects and
+        get placement assistance.
+      </p>
+
+      {/* Stats Cards */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
+
+        <div className="bg-white/10 backdrop-blur-lg border border-white/20 p-6 sm:p-8 rounded-3xl hover:scale-105 transition">
+          <h2 className="text-3xl sm:text-5xl font-bold text-green-400">
+            <Counter end={100} />
+          </h2>
+          <p className="text-gray-300 mt-2">Courses</p>
+        </div>
+
+        <div className="bg-white/10 backdrop-blur-lg border border-white/20 p-6 sm:p-8 rounded-3xl hover:scale-105 transition">
+          <h2 className="text-3xl sm:text-5xl font-bold text-green-400">
+            <Counter end={48000} />
+          </h2>
+          <p className="text-gray-300 mt-2">Students</p>
+        </div>
+
+        <div className="bg-white/10 backdrop-blur-lg border border-white/20 p-6 sm:p-8 rounded-3xl hover:scale-105 transition">
+          <h2 className="text-3xl sm:text-5xl font-bold text-green-400">
+            <Counter end={95} />
+          </h2>
+          <p className="text-gray-300 mt-2">Placement %</p>
+        </div>
+
+      </div>
+
+      {/* Buttons */}
+      <div className="mt-10 flex flex-col sm:flex-row gap-4">
+
+        <a
+          href="/courses"
+          className="text-center bg-green-400 text-black px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold hover:scale-105 transition"
+        >
+          Explore Courses
+        </a>
+
+        <a
+          href="/login"
+          className="text-center border border-white px-6 sm:px-8 py-3 sm:py-4 rounded-full hover:bg-white hover:text-black transition"
+        >
+          Register Now
+        </a>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
 
 <RatingSection />
 <PartnerCompanies />
