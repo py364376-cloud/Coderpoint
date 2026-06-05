@@ -432,7 +432,7 @@ Industry level training with live projects & placement support.
   {/* Row 1 — scrolls left */}
   {[
     [
-      { name: "Broadcast", logo: "https://logo.clearbit.com/broadcast.com" },
+      { name: "Broadcast", logo: "https://tse3.mm.bing.net/th/id/OIP.UfvDT0mlNsmJjFkuBlrpTgHaEo?pid=Api&P=0&h=180" },
       { name: "Fiserv", logo: "https://logo.clearbit.com/fiserv.com" },
       { name: "Accenture", logo: "https://logo.clearbit.com/accenture.com" },
       { name: "Amazon", logo: "https://logo.clearbit.com/amazon.com" },
